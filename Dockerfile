@@ -6,5 +6,3 @@ RUN apt-get update && apt-get install -y \
 RUN pip install -U "scipy==1.2"
 RUN pip install -U "numpy"
 RUN pip install -U "networkx"
-
-CMD ["python", "./src/clique_percolation.py", "./LesMiserables.dot"]
