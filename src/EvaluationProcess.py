@@ -2,10 +2,8 @@ import pandas as pd
 from itertools import combinations
 from numpy import exp
 import networkx as nx
-import pydot
 from cdlib import evaluation, NodeClustering
 import statistics
-import sys
 
 
 class MetricEvaluation:

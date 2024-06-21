@@ -1,0 +1,4 @@
+cdlib==0.4.0
+networkx==3.2.1
+numpy==2.0.0
+pandas==2.2.2
