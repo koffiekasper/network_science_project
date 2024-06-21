@@ -1,3 +1,7 @@
+# Predicting Artist Movement with Overlapping Community Detection Algorithms
+The following code is used to run the experiments in the paper 'Predicting Artist Movement with Overlapping Community Detection
+Algorithms' by Kasper van der Pol and Maggie Maliszeski. The project was completed as part of the Network Science course at Utrecht University in June 2024. 
+
 # Installation
 The installation of this app consists of two dinstinct steps: First, you will generate the artificially weighed .DOT files used in the experiments. After that, you will build the Docker project. 
 
