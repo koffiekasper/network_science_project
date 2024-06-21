@@ -29,9 +29,9 @@ class DatasetManipulator:
          ]
         
         for filter_tuple in filters:
-            output_dot_file = f'./dot_files/artist_pairs_with_weights{filter_tuple[1]}.dot'
-            output_exp_dot_file = f'./dot_files/artist_pairs_with_weights_exp_{filter_tuple[1]}.dot'
-            output_partial_weights_dot_file = f'./dot_files/artist_pairs_with_weights_partial_weights_{filter_tuple[1]}.dot'
+            output_dot_file = f'dot_files/artist_pairs_with_weights{filter_tuple[1]}.dot'
+            output_exp_dot_file = f'dot_files/artist_pairs_with_weights_exp_{filter_tuple[1]}.dot'
+            output_partial_weights_dot_file = f'dot_files/artist_pairs_with_weights_partial_weights_{filter_tuple[1]}.dot'
 
             with open(output_dot_file, 'w') as f:
                 with open(output_exp_dot_file, 'w') as f_exp:
